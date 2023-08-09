@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+body{
+    background-color: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/musicbg2.jfif);
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Poppins','varela';
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.brand img{
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 55px;
+    width: 55px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+li.home a:hover{
+    color: #ff6600; 
+    cursor: pointer;
+}
+li.home a{
+    color: white;
+    text-decoration: none;
+}
+li.username{
+    
+    list-style-type:none;
+	margin-left: 980px;
+	margin-top: 17px;
+    text-decoration: none;
+    border-block-color: white;
+}
+
+.ref{
+    text-decoration: none;
+    color: white;
+}
+.ref:hover{
+    color: black;
+}
+li.logoutbtn button {
+    font-size: 17px;
+    background: linear-gradient(90deg, rgb(4, 245, 85) 17%, rgb(42, 244, 2) 48%, rgb(152, 218, 9) 90%);
+    text-transform: uppercase;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-align: center;
+}
+li.logoutbtn button:hover{
+    color: black;
+}
+
+.container{
+    padding:10px 0;
+	margin:15px 0;
+    margin-left: 110px;
+   height: 450px;
+   width: 85%;
+   box-shadow: 0 0 20px 9px #ff202057;
+   background:transparent;
+   
+}
+
+.bottom{
+    margin-bottom: ;
+    position: sticky;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#progressBar{
+    margin-top: 15px;
+    width: 90vw;
+    background-color: rgb(0, 0, 0);
+}
+.songs{
+    margin-top: 5px;
+    margin-left: 25%;
+    height: 10px;
+    width: 50%;
+    justify-content: space-between;
+    color: black;
+    background: transparent;
+}
+.song1{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songs img{
+    width: 80px;
+    border-radius: 20px;
+    margin-left: 0;
+    margin: 0 23px;
+    justify-content: space-between;
+}
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    margin-bottom: 200px;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
